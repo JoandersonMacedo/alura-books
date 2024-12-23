@@ -1,0 +1,30 @@
+@import url("./styles/header.css");
+@import url("./styles/banner.css");
+@import url("./styles/carrossel.css");
+@import url("./styles/topicos.css");
+@import url("./styles/contato.css");
+@import url("./styles/footer.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-de-fundo-2: #FFFFFF;
+    --cor-de-fundo-3: var(--Teste, linear-gradient(98deg, #002F52 35.49%, #326589 165.37%));
+    --cor-botao: #EB9B00;
+    --cor-borda: var(--Teste, #002F52);
+    --cor-borda-2: #858585;
+    --cor-fonte: #EB9B00;
+    --cor-fonte-2: #FFFFFF;
+    --cor-fonte-3: #002F52;
+    --cor-fonte-4: #000000;
+    --cor-fonte-5: #474646;
+    --cor-fonte-6: #858585;
+    --fonte: 'Poppins', sans-serif;
+    --fonte-2: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+}
